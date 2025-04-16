@@ -1,7 +1,4 @@
-# 🏙️ Mombasa  Housing Hub
-
-A community-focused website that helps new residents in Mombasa find affordable, short-term housing while promoting sustainable urban living and eco-friendly waste management practices.
-Collaborated with NaomiOdwa, FranciscaNabwire and ZipporahRehema
+** Project collaboration with NaomiOdwa, FranciscaNabwire and ZipporahRehema**
 
 ## 🌍 SDG Alignment
 This project supports **Sustainable Development Goal 11**: *Make cities and human settlements inclusive, safe, resilient, and sustainable.*
