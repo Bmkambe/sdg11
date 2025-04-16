@@ -35,46 +35,58 @@
         .modal-lg {
             max-width: 80%; /* Adjust as needed */
         }
+        
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-gray-100 font-sans">
-    <header class="bg-green-500 text-white py-4">
-        <div class="container mx-auto px-4">
-            <h1 class="text-2xl font-bold">Eco-Living in Mombasa</h1>
-            <p class="text-sm">Tips, Resources, and Community Initiatives for Sustainable Living</p>
+<body class="bg-gray-100 font-sans" style="background-color:rgba(173, 221, 230, 0.363); /* Light blue with 30% opacity */">
+    <header class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-6 shadow-lg">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+                        
+            <!-- Logo and Title -->
+                <div>
+                    <a href="index.html" class="flex items-center">
+                        <img src="images/logo.png" alt="Mombasa Housing Hub Logo" class="h-10 w-auto mr-3">
+                        <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Mombasa Housing Hub</h1>
+                    </a>
+                </div>
+            
+            
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-indigo-200"><i class="fas fa-home mr-1"></i> Home</a></li>
+                    <li><a href="listings.html" class="hover:text-indigo-200"><i class="fas fa-list mr-1"></i> Housing</a></li>
+                    <li><a href="ecoliving.html" class="hover:text-indigo-200"><i class="fas fa-leaf mr-1"></i> Eco-Living</a></li>
+                    <li><a href="community.html" class="hover:text-indigo-200"><i class="fas fa-comments mr-1"></i> Community</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <nav class="bg-gray-200 py-2">
-        <div class="container mx-auto px-4">
-            <ul class="flex space-x-4">
-                <li><a href="index.html" class="hover:text-green-500">Home</a></li>
-                <li><a href="listings.html" class="hover:text-green-500">Housing Listings</a></li>
-                <li><a href="ecoliving.html" class="hover:text-green-500">Eco-Living</a></li>
-                <li><a href="community.html" class="hover:text-green-500">Community</a></li>
-            </ul>
-        </div>
-    </nav>
-
+   
     <main class="container mx-auto py-8 px-4">
         <section class="mb-8">
             <h2 class="text-xl font-semibold mb-4">Weekly Waste Sorting Tips</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="img-fluid mb-4" src="images/plastic.jpg" alt=""width="">
                     <h3 class="font-semibold mb-2">Plastic</h3>
-                    <p class="text-gray-700"> Thoroughly rinse and ensure plastic bottles and containers are fully dry to prevent contamination. Carefully examine items for recycling symbols (resin codes #1 & #2 are often recyclable in Mombasa). Actively reduce your plastic use by choosing reusable alternatives to minimize waste generation at the source.</p>
+                    <p class="text-gray-700"> Thoroughly rinse and ensure plastic bottles and containers are fully dry to prevent contamination. Carefully examine items for recycling symbols . Actively reduce your plastic use by choosing reusable alternatives to minimize waste generation at the source.</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="img-fluid mb-4" src="images/organicwaste.jpg" alt=""width="">
                     <h3 class="font-semibold mb-2">Organic Waste</h3>
                     <p class="text-gray-700"> Investigate home composting for food peels, coffee grounds, and garden trimmings to create valuable soil. Inquire with Mombasa authorities about designated organic waste collection programs, including accepted materials and proper sorting methods. Separating organics reduces landfill burden and potential methane emissions.</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="img-fluid mb-4" src="images/e-waste.jpg" alt=""width="">
                     <h3 class="font-semibold mb-2">E-waste</h3>
-                    <p class="text-gray-700"> Never discard old electronics with regular trash due to hazardous materials. Seek out specific e-waste collection centers or designated drop-off events in Mombasa. These ensure safe recycling and prevent environmental contamination. Remember to wipe personal data before disposal.</p>
+                    <p class="text-gray-700"> Never discard old electronics with regular trash due to hazardous materials. Seek out specific e-waste collection centers or designated drop-off events in Mombasa. These ensure safe recycling and prevent environmental contamination. Remember to wipe personal data before disposal. </p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <img class="img-fluid mb-4" src="images/cardboard.jpg" alt=""width="">
                     <h3 class="font-semibold mb-2">Paper & Cardboard</h3>
-                    <p class="text-gray-700">Keep paper and cardboard clean and dry for recycling. Flatten cardboard boxes to save space.</p>
+                    <p class="text-gray-700">Ensure all paper and cardboard are free from food stains and moisture to maintain recyclability. Flatten cardboard boxes to conserve space in collection bins and during transport. Clean, dry, and flattened paper maximizes recycling efficiency in Mombasa's waste management system.</p>
                 </div>
             </div>
         </section>
@@ -82,7 +94,7 @@
         <section class="mb-8">
             <h2 class="text-xl font-semibold mb-4">Recycling & Compost Drop-off Points</h2>
             <p class="mb-4">Find nearby recycling centers and compost drop-off locations on the map below.</p>
-            <div id="recyclingMap"> <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63677.44693783036!2d39.631486718996804!3d-4.052946814825564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20recycling%20centers%20mombasa!5e0!3m2!1sen!2ske!4v1744382283053!5m2!1sen!2ske" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div id="recyclingMap"> <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63677.44693783036!2d39.631486718996804!3d-4.052946814825564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20recycling%20centers%20mombasa!5e0!3m2!1sen!2ske!4v1744382283053!5m2!1sen!2ske" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </section>
 
 
@@ -91,27 +103,28 @@
             <h2 class="text-xl font-semibold mb-4">Upcycling Ideas & Tutorials</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                <div class="bg-white rounded-lg shadow-md p-4">
+                <div class="rounded-lg shadow-md p-4" style="background-color:#5FA4FA;">
                     <h3 class="font-semibold mb-2">DIY Pallet Furniture</h3>
                     <p class="text-gray-700">
                         Learn how to create unique furniture pieces from old wooden pallets.
-                        <button type="button" class="text-green-500 hover:underline" data-toggle="modal" data-target="#palletFurnitureModal">Tutorial</button>
+                        <button type="button" class="text-white-500 hover:underline" data-toggle="modal" data-target="#palletFurnitureModal" style="color: white;">Tutorial</button>
                     </p>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-md p-4">
+                <div class="rounded-lg shadow-md p-4" style="background-color:#599DF8;">
                     <h3 class="font-semibold mb-2">Turning Old Clothes into Bags</h3>
                     <p class="text-gray-700">
                         Give your old clothes a new life by turning them into stylish bags.
-                        <button type="button" class="text-green-500 hover:underline" data-toggle="modal" data-target="#clothesToBagsModal">Tutorial</button>
+                        <button type="button" class="text-darkgreen-500 hover:underline" data-toggle="modal" data-target="#clothesToBagsModal" style="color: white;""
+                        >Tutorial</button>
                     </p>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-md p-4">
+                <div class="rounded-lg shadow-md p-4" style="background-color:#599DF8;">
                     <h3 class="font-semibold mb-2">Creative Packaging Reuse</h3>
                     <p class="text-gray-700">
                         Discover innovative ways to reuse packaging materials like glass jars and cardboard boxes.
-                        <button type="button" class="text-green-500 hover:underline" data-toggle="modal" data-target="#packagingReuseModal">Tutorial</button>
+                        <button type="button" class="text-darkgreen-500 hover:underline" data-toggle="modal" data-target="#packagingReuseModal" style="color: white;">Tutorial</button>
                     </p>
                 </div>
 
@@ -127,11 +140,32 @@
                 <p class="text-gray-700 mb-2"><span class="font-bold">Date:</span> April 27th, 2025</p>
                 <p class="text-gray-700 mb-2"><span class="font-bold">Location:</span> Tudor Creek Area</p>
                 <p class="text-gray-700 mb-4">Help us make a difference! All volunteers are welcome.</p>
-                <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Sign Up</button>
+                <button  id="openSignupModal" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Sign Up</button>
             </div>
         </section>
 
     </main>
+    <div id="signupModal" class="modal">
+        <div class="signup-modal-content">
+            <span class="signup-close-button">&times;</span>
+            <h2>Sign Up for Beach Cleanup</h2>
+            <form id="beachCleanupSignupForm">
+                <div class="signup-form-group">
+                    <label for="signupName">Name:</label>
+                    <input type="text" id="signupName" name="name" required>
+                </div>
+                <div class="signup-form-group">
+                    <label for="signupEmail">Email:</label>
+                    <input type="email" id="signupEmail" name="email" required>
+                </div>
+                <div class="signup-form-group">
+                    <label for="signupPhone">Phone Number:</label>
+                    <input type="tel" id="signupPhone" name="phone">
+                </div>
+                <button type="submit" class="signup-submit-button">Submit Sign Up</button>
+            </form>
+        </div>
+    </div>
 
     <div class="modal fade" id="palletFurnitureModal" tabindex="-1" role="dialog" aria-labelledby="palletFurnitureModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -271,14 +305,8 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-         aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Container Classrooms</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div
+
+    <footer class="bg-gray-300 py-4 text-center text-gray-700 mt-8">
+        <p>&copy; 2025 Mombasa Transition Housing Hub</p>
+    </footer>
+   
