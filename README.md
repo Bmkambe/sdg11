@@ -1,4 +1,4 @@
-** Project collaboration with NaomiOdwa, FranciscaNabwire and ZipporahRehema**
+Project collaboration with NaomiOdwa, FranciscaNabwire and ZipporahRehema
 
 ## 🌍 SDG Alignment
 This project supports **Sustainable Development Goal 11**: *Make cities and human settlements inclusive, safe, resilient, and sustainable.*
